@@ -5,7 +5,7 @@
 	display: inline-flex;
 	flex-direction: column;
 	width: 100%;
-	max-width: func.em(360, var.$font-size-primary);
+	max-width: func.em(320, var.$font-size-primary);
 	margin: func.em(30, var.$font-size-primary) 0
 		func.em(60, var.$font-size-primary);
 	border-radius: 8px;
@@ -37,6 +37,7 @@
 .card__img {
 	width: func.em(60, var.$font-size-primary);
 	height: auto;
+	margin-bottom: func.em(10, var.$font-size-primary);
 }
 
 .card__title {
@@ -45,7 +46,7 @@
 }
 
 .card__btn {
-	margin-top: func.em(25, var.$font-size-primary);
+	margin-top: func.em(6, var.$font-size-primary);
 }
 
 @media (min-width: 51.25em) {
