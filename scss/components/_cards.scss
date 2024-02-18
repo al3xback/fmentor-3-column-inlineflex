@@ -1,9 +1,17 @@
 @use '../abstracts/variables' as var;
 @use '../abstracts/functions' as func;
 
+.card {
+	display: flex;
+	flex-direction: column;
+}
+
 .cards {
 	display: inline-flex;
 	flex-direction: column;
+}
+
+.cards {
 	width: 100%;
 	max-width: func.em(320, var.$font-size-primary);
 	margin: func.em(30, var.$font-size-primary) 0
@@ -13,8 +21,6 @@
 }
 
 .card {
-	display: flex;
-	flex-direction: column;
 	align-items: flex-start;
 	gap: func.em(25, var.$font-size-primary);
 	padding: func.em(48, var.$font-size-primary);
